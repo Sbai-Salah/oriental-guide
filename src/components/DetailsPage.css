@@ -1,0 +1,30 @@
+.timeline-container {
+    border-left: 2px solid #ddd;
+    padding-left: 1rem;
+  }
+  
+  .timeline-event {
+    position: relative;
+    margin: 1rem 0;
+  }
+  
+  .timeline-year {
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .timeline-content {
+    margin-left: 1.5rem;
+  }
+  
+  .timeline-event::before {
+    content: '';
+    position: absolute;
+    left: -0.5rem;
+    top: 0.2rem;
+    width: 0.75rem;
+    height: 0.75rem;
+    background-color: #555;
+    border-radius: 50%;
+  }
+  

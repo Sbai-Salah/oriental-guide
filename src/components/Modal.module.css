@@ -1,0 +1,36 @@
+/* Fullscreen modal overlay */
+.custom-modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.85); /* Dim background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000; /* Bring modal to front */
+  }
+  
+  /* Modal content for the video */
+  .custom-modal-content {
+    position: relative;
+    width: 80%;
+    height: 80%;
+    background: #000;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  
+  /* Close button style */
+  .close-button {
+    position: absolute;
+    top: 15px;
+    right: 20px;
+    font-size: 2rem;
+    color: white;
+    background: none;
+    border: none;
+    cursor: pointer;
+  }
+  

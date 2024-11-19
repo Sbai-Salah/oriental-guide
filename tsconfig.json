@@ -1,0 +1,36 @@
+{
+  "compilerOptions": {
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "noEmit": true,
+    "esModuleInterop": true,
+    "module": "esnext",
+    "moduleResolution": "bundler",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "preserve",
+    "incremental": true,
+    "plugins": [
+      {
+        "name": "next"
+      }
+    ],
+    "paths": {
+      "@/*": ["./src/*"]
+    }
+  },
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "src/components/ImageGallerie.jsx", "src/app/city/[cityName]/page.jsx", "src/components/CustomBasicComponents/Swiper.jsx", "src/components/GoogleTranslate.jsx"],
+  "exclude": ["node_modules"]
+}
+// {
+//   "compilerOptions": {
+//     "module": "commonjs",
+//     "target": "es6",
+//     "esModuleInterop": true,
+//     "moduleResolution": "node",
+//     "outDir": "dist"
+//   },
+//   "include": ["prisma/**/*.ts"]
+// }
